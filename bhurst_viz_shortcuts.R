@@ -17,7 +17,6 @@ theme_set(theme_minimal(base_family = 'Public Sans', base_size = 11) +
                   panel.grid.major.y = element_blank(), 
                   plot.title = element_text(face = 'bold', size = 13), 
                   plot.title.position = 'plot',
-                  text = element_text(color = .black), 
                   plot.background = element_rect(fill = 'white', color = 'white'), 
                   axis.text = element_text(size = 9), 
                   axis.title = element_text(size = 9)))
