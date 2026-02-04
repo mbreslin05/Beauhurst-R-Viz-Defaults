@@ -37,11 +37,11 @@ theme_set(theme_minimal(base_family = 'Public Sans', base_size = 11) +
 # Extra functions ---------------------------------------------------------
 
 .add_x_gridlines <- function() {
-            theme(panel.grid.major.x = element_line(line_width = 0.2, color = 'gray95'))
+            theme(panel.grid.major.x = element_line(linewidth = 0.2, color = 'gray95'))
                   }
 
 
 .add_y_gridlines <- function() {
-            theme(panel.grid.major.y = element_line(line_width = 0.2, color = 'gray95'))
+            theme(panel.grid.major.y = element_line(linewidth = 0.2, color = 'gray95'))
                   }
 
