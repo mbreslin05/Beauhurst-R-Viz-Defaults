@@ -11,11 +11,11 @@ library(ggplot2)
 # Theme -------------------------------------------------------------------
 
 
-theme_set(theme_minimal(base_family = 'Public Sans', base_size = 11) + 
+theme_set(theme_minimal(base_family = 'Public Sans', base_size = 10) + 
             theme(panel.grid.minor = element_blank(), 
                   panel.grid.major.x = element_blank(), 
                   panel.grid.major.y = element_blank(), 
-                  plot.title = element_text(face = 'bold', size = 13), 
+                  plot.title = element_text(face = 'bold', size = 12), 
                   plot.title.position = 'plot',
                   plot.background = element_rect(fill = 'white', color = 'white'), 
                   axis.text = element_text(size = 9), 
